@@ -1,0 +1,10 @@
+body {
+    background-image: url(/assets/img/fondo.jpg);
+}
+
+a { text-decoration: none; 
+} 
+
+.menunavbar{
+    flex-grow: 0 !important;
+    }
