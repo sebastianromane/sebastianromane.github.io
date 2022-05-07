@@ -1,20 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student portfolio</title>
     <link rel="stylesheet" href="/assets/css/normalice.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="shortcut icon" href="/assets/img/favicon1.ico">
-        <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-    
 
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon1.ico"
+      type="image/ico"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <div class="container w-75">
+          <a class="navbar-brand text-white fw-light" href="#">
+            <img
+              src="/assets/img/lognav.png"
+              alt="chilean flag logo"
+              width="50"
+            />Development
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="https://desafiolatam.com/chile/"
+                >Desafío Latam</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contributions
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://www.w3schools.com/"
+                    >W3schools</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://unsplash.com/es/s/fotos/bank"
+                    >Photo bank</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.tutorialesprogramacionya.com/"
+                    >Programming tutorials</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid colorsection1">
+      <div class="row justify-content-evenly">
+        <div class="row align-items-center col-4">
+          <h1 class="text-white fw-bold">Hi my name is Sebastian.</h1>
+          <p class="text-white h2">Welcome to my test page.</p>
+        </div>
+        <div class="col-4">
+          <img
+            class="rounded-circle"
+            src="/assets/img/seba.png"
+            alt="personal photo"
+            width="250"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+      <div class="row align-items-center">
+        <div class="col text-center">
+          <h3 class="text-primary">
+            <i class="bi bi-twitter text-primary"></i>@sebastianromane
+          </h3>
+        </div>
+        <div class="col text-center">
+          <h3 class="text-danger">
+            <i class="bi bi-instagram text-danger"></i>#sebastianromane
+          </h3>
+        </div>
+        <div class="col text-center">
+          <h3 class="text-muted">
+            <i class="bi bi-envelope-check text-muted"></i>seba@desafiolatam.com
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Galería de imágenes -->
+
+    <div class="container mt-5">
+      <div class="row gx-5 gy-5">
+        <div class="col-xs-12 col-md-4">
+          <div class="card">
+            <img
+              src="/assets/img/carousel2.jpg"
+              class="card-img-top"
+              alt="CSS project"
+            />
+            <div class="card-body pb-0">
+              <h5 class="card-title">Desafío Latam</h5>
+              <p class="card-text">CSS project</p>
+              <section class="Mb-0">
+                <div class="card-footer bg-white Mb-0 caja">
+                  <h1 class="text-muted text-center fs-1">
+                    <a href="https://sebastianromane.github.io/csspro.github.io/"><h5><i class="bi bi-file-code text-primary"></i>  Go project --></h5></a>
+                  </h1>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <div class="card">
+            <img
+              src="/assets/img/carousel3.jpg"
+              class="card-img-top"
+              alt="Position project"
+            />
+            <div class="card-body pb-0">
+              <h5 class="card-title">Desafío Latam</h5>
+              <p class="card-text">Position project</p>
+              <section class="Mb-0">
+                <div class="card-footer bg-white Mb-0 caja">
+                  <h1 class="text-muted text-center fs-1">
+                    <a href="https://sebastianromane.github.io/positionproj.github.io/"><h5><i class="bi bi-file-code text-primary"></i>  Go project --></h5></a>
+                  </h1>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <div class="card">
+            <img
+              src="/assets/img/carousel4.jpg"
+              class="card-img-top"
+              alt="Bootstrap project"
+            />
+            <div class="card-body pb-0">
+              <h5 class="card-title">Desafío Latam</h5>
+              <p class="card-text">Bootstrap project</p>
+              <section class="Mb-0">
+                <div class="card-footer bg-white Mb-0 caja">
+                  <h1 class="text-muted text-center fs-1">
+                    <a href="https://sebastianromane.github.io/bootstrapproj.github.io/"><h5><i class="bi bi-file-code text-primary"></i>  Go project --></h5></a>
+                  </h1>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <div class="card">
+            <img
+              src="/assets/img/carousel5.jpg"
+              class="card-img-top"
+              alt="Git terminal and GitHub project"
+            />
+            <div class="card-body pb-0">
+              <h5 class="card-title">Desafío Latam</h5>
+              <p class="card-text">Git terminal and GitHub project.</p>
+              <section class="Mb-0">
+                <div class="card-footer bg-white Mb-0 caja">
+                  <h1 class="text-muted text-center fs-1">
+                    <a href="https://sebastianromane.github.io/terminal.github.io/"><h5><i class="bi bi-file-code text-primary"></i>  Go project --></h5></a>
+                  </h1>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <div class="card">
+            <img
+              src="/assets/img/carousel1.jpg"
+              class="card-img-top"
+              alt="Curriculum project"
+            />
+            <div class="card-body pb-0">
+              <h5 class="card-title">Desafío Latam</h5>
+              <p class="card-text">Curriculum project</p>
+              <section class="Mb-0">
+                <div class="card-footer bg-white Mb-0 caja">
+                  <h1 class="text-muted text-center fs-1">
+                    <a href="https://sebastianromane.github.io/curriculumproject.github.io/"><h5><i class="bi bi-file-code text-primary"></i>  Go project --></h5></a>
+                  </h1>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="Your fork project" />
+            <div class="card-body pb-0">
+              <h5 class="card-title">Desafío Latam</h5>
+              <p class="card-text">Your fork project</p>
+              <section class="Mb-0">
+                <div class="card-footer bg-white Mb-0 caja">
+                  <h1 class="text-muted text-center fs-1">
+                    <a href="https://sebastianromane.github.io/upforks.github.io/"><h5><i class="bi bi-file-code text-primary"></i>  Go project --></h5></a>
+                  </h1>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center container-fluid colorfooter mt-5">
+      <footer class="pb-4">
+        <h2 class="text-dark fw-lighter">
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          © My project Latam. Todos los derechos reservados 2022.
+          <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </h2>
+      </footer>
+    </div>
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
